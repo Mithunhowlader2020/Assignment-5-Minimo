@@ -96,6 +96,7 @@ article a{
 	color: #9a9898 ;
 }
 
+
 .blog-section{}
 .blog{
 	width: 50%;
@@ -171,8 +172,12 @@ footer.container{
 }
 .footer-menu ul li a{
 	text-transform:capitalize;
-  color: #585858;
+
+	padding: 30PX;
+  	color: #585858;
 	font-size: 30px;
+
+
 }
 .footer-menu ul li a:hover{
 	color: #000000;
@@ -180,27 +185,29 @@ footer.container{
 
 
 .social-menu{
-	width: 50%;
-	float: left;
+	width: 40%;
+	float: right;
 }
 .social-menu ul{
+	text-align: right;
 
 }
 .social-menu ul li{
 	display: inline-block;
 	list-style: none;
-  font-size: 40px;
-  text-align: center;
+  font-size: 30px;
+  text-align: right;
 }
 .social-menu strong{
 	text-transform:full-width;
 	color: #585858 ;
 	font-weight: 400;
-	margin-right: 30px;
+	margin-right: 20px;
 }
 .social-menu ul li a{
-	font-size: 40px;
+	font-size: 30px;
 	color: #585858;
-	padding: 10px;
+	padding: 30px;
 }
 .social-menu ul li a:hover{}
+
